@@ -10,12 +10,12 @@ function ParliamentApp() {
   return (
     <Switch>
       <Route path='/' component={FrontPage} />
-      <Route path='/votes' component={VoteHome} />
+      {/*<Route path='/votes' component={VoteHome} />
       <Route path='/votes/:uid' component={VoteSearch} />
       <Route path='/groups' component={GroupHome} />
       <Route path='/groups/:uid' component={GroupSearch} />
       <Route path='/people' component={PeopleHome} />
-      <Route path='/people/:uid' component={PeopleSearch} />
+      <Route path='/people/:uid' component={PeopleSearch} />*/}
     </Switch>
   );
 }
